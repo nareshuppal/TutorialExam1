@@ -71,7 +71,7 @@ public static void main(String args[])
 		Long result = skills.stream().filter(string-> string.isEmpty()).count();			
 		//collect the output and convert streams to a List
 
-		System.out.println("count"+result);;
+		System.out.println("count-->>"+result);;
 			return result;
 	}
 
